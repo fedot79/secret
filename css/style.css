@@ -1,0 +1,76 @@
+                                                    /*Header start*/
+header{
+    background-color: #f4f4f4;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.container{
+    width: 1170px;
+}
+.headerMenu{
+    margin-left: -15px;
+}
+
+header li{
+    font-size: 12px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.167;
+
+}
+.headerMenu a{
+    color: black;
+}
+.search{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.06);
+
+
+}
+.search:hover{
+    background-color: #eceff5;
+}
+.tel{
+    font-size: 18px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.444;
+}
+.mail a{
+    font-size: 12px;
+    font-family: Montserrat;
+    color: rgb(50, 99, 222);
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 2.167;
+}
+.headButton button{
+    background-color: rgb(28, 130, 217);
+    width: 172px;
+    height: 47px;
+    font-size: 13px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2;
+
+}
+.headButton button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+                                                    /*Header end*/
