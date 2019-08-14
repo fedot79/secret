@@ -150,6 +150,16 @@ header li{
     }
 
 }
+@media (max-width: 999px) {
+    .lidUnit:nth-child(even){
+        padding-left: 80px;
+    }
+    .lidUnit:nth-child(odd){
+        padding-right: 80px;
+
+    }
+    
+}                                                    
  @media (max-width: 992px) {
     .headerContacts{
         text-align: center;
