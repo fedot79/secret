@@ -69,6 +69,69 @@ header li{
 
                                                     /*Header end*/
                                                     /*Main start*/
+.liders{
+    background: url("../img/bgLid.png");
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+
+
+
+
+}
+.lid{
+    background-color: #f7fcfe;
+    padding-top: 85px;
+    padding-bottom: 120px;
+
+}
+.lidHead p{
+    font-size: 26px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.462;
+}
+.lidText{
+    font-size: 14px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    line-height: 1.857;
+    padding-top: 45px;
+}
+.lidHead p{
+    text-align: center;
+}
+.lidText p{
+    text-align: center;
+}
+.lidUnit{
+    padding-top: 70px;
+
+}
+.lidUnit:nth-child(even){
+    padding-left: 230px;
+}
+.lidUnit:nth-child(odd){
+   padding-right: 180px;
+
+}
+.lidUnit img{
+    width: 30px;
+    height: 32px;
+}
+.lidUnit p{
+    font-size: 13px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.538;
+    padding-left: 35px;
+
+}
+
+
 
 
                                                     /*Main end*/
@@ -78,7 +141,7 @@ header li{
             margin-left: 0;
 
         }
-    
+
     .headerContacts{
         text-align: center;
     }
@@ -90,6 +153,7 @@ header li{
  @media (max-width: 992px) {
     .headerContacts{
         text-align: center;
+
     }
      .headerMenu ul{
          padding-left: 39px;
@@ -100,6 +164,10 @@ header li{
      .headerMenu ul{
          padding-left: 100px;
      }
+     .headerContacts{
+         margin-left: 60px;
+     }
+
  }
  @media (max-width: 575px) {
      .headerContacts{
