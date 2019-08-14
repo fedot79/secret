@@ -67,10 +67,61 @@ header li{
 }
 
 
-
-
-
-
-
-
                                                     /*Header end*/
+                                                    /*Main start*/
+
+
+                                                    /*Main end*/
+                                                    /*Media start*/
+@media (max-width: 1199px) {
+        .headerMenu{
+            margin-left: 0;
+
+        }
+    
+    .headerContacts{
+        text-align: center;
+    }
+    .headerMenu ul{
+        padding-left: 70px;
+    }
+
+}
+ @media (max-width: 992px) {
+    .headerContacts{
+        text-align: center;
+    }
+     .headerMenu ul{
+         padding-left: 39px;
+     }
+ }
+ @media (max-width: 768px) {
+
+     .headerMenu ul{
+         padding-left: 100px;
+     }
+ }
+ @media (max-width: 575px) {
+     .headerContacts{
+         text-align: left;
+         margin-left: 220px;
+     }
+     .headerMenu ul{
+         padding-left: 0;
+
+     }
+     .headButton{
+         margin-right: 574px;
+     }
+     .headerLogo{
+         margin-left: 220px;
+     }
+ }                                                   
+
+
+
+
+
+
+
+                                                    /*Media end*/
