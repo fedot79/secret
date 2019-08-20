@@ -172,6 +172,42 @@ color: white;
 .product_unit:hover svg{
     fill: #23c9f3;
 }
+.about_unit{
+    background-color: white;
+    z-index: 100;
+    padding: 45px 60px 45px 45px;
+}
+.about{
+    padding-top: 85px;
+}
+.about_unit h4{
+    font-size: 20px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.35;
+}
+.about_unit p{
+    font-size: 14px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    line-height: 1.714;
+}
+.about_unit a{
+    font-size: 13px;
+    font-family: Montserrat;
+    color: rgb(50, 99, 222);
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 2.077;
+}
+
+
+
+
+
 
 
 
