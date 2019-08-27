@@ -65,6 +65,31 @@ header li{
 .headButton button:hover{
     cursor: pointer;
 }
+.inp_search{
+    background-color: rgb(255, 255, 255);
+    width: 539px;
+    height: 38px;
+    border-radius: 22px;
+    outline: none;
+    padding-left: 10px;
+
+}
+
+.search{
+    top: 4px;
+    right: 12px;
+    position: absolute;
+
+}
+.cross_search{
+    top: 9px;
+    position: absolute;
+    left: 282px;
+}
+.cross_search:hover{
+    cursor: pointer;
+}
+
 
 
                                                     /*Header end*/
