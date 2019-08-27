@@ -203,16 +203,114 @@ color: white;
     text-transform: uppercase;
     line-height: 2.077;
 }
+.news{
+    background-color: #f4f4f4;
+    z-index: 101;
+}
+#resizeSlider{
+    float: none!important;
+}
+.card-img-overlay{
+    margin-top: 252px;
+    color: #f4f4f4;
+}
+.card{
+    margin-top: 25px;
+
+}
+.date{
+    font-size: 12px;
+    font-family: Montserrat;
+    color: rgb(156, 165, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.25;
+}
+.card_head{
+    font-size: 18px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.card_head_min{
+    font-size: 12px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.25;
+}
+.card-body p{
+    font-size: 12px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    line-height: 1.667;
+}
+.card-img-overlay p{
+    font-size: 13px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    line-height: 1.538;
+}
+.card-body:hover {
+    background-color: #3263de;
 
 
-
-
-
-
+}
+.card-body:hover span{
+    color: white;
+}
+.card-body:hover p{
+    color: white;
+}
+.news{
+    padding-top: 110px;
+    padding-bottom: 75px;
+}
+.card_sait{
+    padding-top: 50px;
+}
+.card_body_sait{
+    padding-top: 94px;
+}
 
 
 
                                                     /*Main end*/
+                                                    /*Footer start*/
+.footer_top a{
+    color: white;
+}
+.footer_top{
+    background-color: #2b2e33;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-tel{
+    color: white;
+}
+.footer-mail{
+    color: #3263de!important;
+}
+.footer-addr{
+    font-size: 13px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    line-height: 1.846;
+}
+.footer_bot{
+    background-color: #f4f4f4;
+    padding: 18px 0 18px 0;
+}
+.f_right{
+
+    float: right;
+}
+
+
+                                                    /*Footer end*/
                                                     /*Media start*/
 @media (max-width: 1199px) {
         .headerMenu{
@@ -231,6 +329,12 @@ color: white;
     .headerMenu ul{
         padding-left: 70px;
     }
+    .headerContacts{
+        text-align: left;
+    }
+    .footer-addr{
+        display: none;
+    }
 
 }
 @media (max-width: 999px) {
@@ -240,6 +344,9 @@ color: white;
     .lidUnit:nth-child(odd){
         padding-right: 80px;
 
+    }
+    .about_unit{
+        padding: 10px 10px 10px 10px;
     }
     
 }                                                    
