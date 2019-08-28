@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="css/resize-slider.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header  >
+    <div class="container">
+        <div class="row d-flex flex-wrap align-content-center">
+            <div class="col-sm-2 col-md-2 col-xl-2 p-2 headerLogo "><img src="img/headerLogo.png" alt=""></div>
+            <div class="col-sm-10 col-md-10 col-xl-6 p-2 headerMenu">
+                <ul class="nav nav-pills">
+
+                    <li class="nav-item dropdown chek">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">компания</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#!">Action</a>
+                            <a class="dropdown-item" href="#!">Another action</a>
+                        </div>
+                    </li>
+                    <li class="nav-item  chek">
+                        <a class="nav-link" href="catalogue.html">Каталог</a>
+                    </li>
+                    <li class="nav-item chek">
+                        <a class="nav-link" href="#!">услуги</a>
+                    </li>
+                    <li class="nav-item chek">
+                        <a class="nav-link" href="#!">новости</a>
+                    </li>
+                    <li class="nav-item chek">
+                        <a class="nav-link" href="#!">контакты</a>
+                    </li>
+                    <form action=""><input class="inp_search" type="text" placeholder="Поиск по сайту "></form>
+                    <li class="nav-item search">
+
+                        <a class="nav-link" href="#!" ><img  src="img/headSearch.png" alt=""></a>
+
+
+                    </li>
+                    <a href="" class="cross_search"><img class="cross_search" src="img/cross_search.png" alt=""></a>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-md-6  col-xl-2 p-2 headerContacts">
+                <span class="tel">+7 (495) 776-33-96</span><br>
+                <span class="mail"><a href="">mail@secrety.org</a></span>
+            </div>
+            <div class="col-sm-4 col-md-6 d-flex justify-content-center col-xl-2 p-2 headButton">
+                <button>Оставить заявку</button>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="catalogue">
+    <div class="container">
+        <div class="row">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                    <li class="breadcrumb-item " ><a href="catalogue.html">Каталог</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Оборудование защиты информации</li>
+                </ol>
+                <p class="page_name">Оборудование защиты информации</p>
+            </nav>
+            <div class="card-deck">
+                <div class="card  ">
+                    <a href="">
+                        <div class="card-body  ">
+                            <div class="d-flex justify-content-center">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="44px" height="59px">
+                                    <image  x="0px" y="0px" width="44px" height="59px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA7CAQAAACqXqCpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjCBwOFhx0vKT4AAAEOUlEQVRYw+3Xe4iUVRjH8c/c9tbaroKlZV5WA9HuZQZZWFBh5YXWjAqUiDRLyf+0MGJBKiIkiEqDiLCQLoRphVYQbUEZKlHEhqUEKa152Uur7u7MztsfM87OrO/oO5v91/MyMOc953znOb/znOc8Q6ltFgzz2VEKipW0tpqrzW7Jov4BWbONs9MefVbhc4fEJQSFUWmXudo3bhJqTQI7Q3vGCGwEgbbwybYIXDvYjBd1TcSm0Entui21zNt4twx4E5oGm8mirhhFyyu1B2y1AT9qKTMiWypsMXgAR8pM+0TCXH/apZzFS90a6vEVPnJBiUC5nj59dhvQqKFkwxN6HAr7nWTJIJ7yqNoQQWKy+iVUCYp6k+Le8+DZwNDtZw2CvFdBYSWlFhRmB9rDlRmq8ZNedU6sWM0A/fnvVWr/HXioFHVgqXVGe8NqR030gqmOFcSpEfem1yoFB2i2ET0elrLEWPNVDRl19OzgeMi7VYgZYafFpvhWtVjRkxIzp3Ip4CDusss03f7Gc8bL+MmLIFO53rMFVqLBvnwqXIS5hcR4ZmsWuPfMHneZ6QljbNKKbUYaK+PXyrxMhr494umiVqfOypcfDh4lJiuW39oswrcZEtKORQPfZ6UJUmdVFWLSfvOyD6OAl7jRXl2nRW+Y9Ws0W3s0cALL7dEYAdzhOl9IRJMijbbIW7ZXLn0NsXJbUhcJinLJKh4ZUKH9Dw4Fx4Xdb+cAXI+R/wW41Tbb5A5IIjIhkV9nvJRWfEA6zQMdcmEfzdrk6qc/8p8S8KUud0JMRsI+TXjG/kj39EmTcZXzLcDd+o1z4FQh9viwi+1yz7MaYqb7wGQtBlTlK6A+WVWR4yPQL6FaWlpKwlFrXGgBt+jw6TC2vbytF3goLhDks9Msy4YNm+QicVeCXmSThXuiznozzNPi+4qxCWvNdEiPZplcqOYiL4bxZuBOOzxf8TEZcNx0t0oNVh25Y5yVS9ZvmanRaksq9jknZt/gi8EDksV5poCuCrHVqm32u0lq9OZu9ST5IEsZsNBCbZb7qkJwn8dAnd5T8sYLgvxiBx4xrWLsoJ0Ik4IF6nUMGzrEirNb+txhT3mcxQSvm+pwyJ0SlHyvd1yLrdHAUOtmNcZHcueSqB7nNq9cmoypL6wjkBLorkSKWqs16RyS1VLYbkuFAhfAMUyzRnXomMm26x0eeAC73aCu8D9v0BLaK8Smc+CURL60/qHyBYdagFRSlx6z3I8qPWqkThsWHxJwNfq02o8Gc9TLyBXgvWok7TMfnVR5RSCQkTYgIxvpVnsJzCu0szLShdkfGxdDnUWu1+kad/jOZ0aesfAK1Eh735eYZIUR+sT95Ua3afW10dq843DxlBkCK4atbLPA7eFdtYKQqIhqBwQuHmwWZ7eT1lkr0CUT4fIPFJeQo7DBwfLD73FyWCVK1uJS0D+4gZ1zZGrmTwAAAABJRU5ErkJggg==" />
+                                </svg>
+                            </div>
+                            <p class="card-text cat_first"><strong>защита сотовых  телефонов</strong></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <div class="card-body  ">
+                            <div class="d-flex justify-content-center">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="62px" height="62px">
+                                    <image  x="0px" y="0px" width="62px" height="62px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAQAAADZyGDPAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjCBwOFyRFpS0nAAAGk0lEQVRYw83Za4yU5RUH8N87u7IslF12BeQqFA3EC8SlhWgVUmOCFltto0Ak1RQ0TVNsaxpJJVEhTVrTWJU29oaNNdKKFzReYpqWmEDThpTaxYqh0CAuBXYFFtnlssvOzszTD/uyzMzO7M4sbNszHybvOef5/+c857znuUykfKkw1iK3udwUwUF7ve73jkkNAqtMGW2V44IgJSkpJQhO+oH6cqGisrwTZvmdq2Sc0mSbFkx0nak+JeEDX7VTZqiivtEhwUlv+GyOfq43nBQc9Pmhop5hj6DV8oLWe7UKdru8PNDSpn64twRtvlzU4yvaBW8aXjrrtZYYVYLzUkcEq1UW9bjIw4LDFpeANsoS19IuuGtA54RNgg9N7ddrmibBJokB8ZYJ2irVSJoyoPOlpmO9j3ufa7Os7f4NWvzKD003xf4B8CZLqq2UIa89JIwRHM3RNZiAd3WBGs+YlWXdabET6LIdl2jIIx8r0przEqaQyc3gMElM931HrdGWZRljlO5eTb2ZLsmydqlzArRJqXFxDmqdh431qL29DLGcIx/l66r80ieucJdmr/pTFkCNap/ojp+afMv03rck2NcbaUq7OqNzyGe700Qb7XWxbzhjvZP55OP8WMo/vC2NjryiSYiks57fKpLLICXKGxvpQBrXWavS633JE2jPKqOQB5rdDxKWmZIV+QEv9GY0Kjj27Py1u/jcT6vMcQk50XGFe+y0KTtPcQVsyNP80ZE8zTB3muV5/8zSpWOWPuSF5Ase8jfbfJSnT/q1ab0RZDT1+XlM8oC5juaQ50n/5MMRFeh/bR4wNmvajzrdx2eUKEYYJHka6YKL5OkCdLmSiUf3IwM3wiGU/2PyClTEPpFMXsstJEdl4lpISMQIRaX/nJ9GKm6q3eo963i/q39Qpz7ug+1CjBCJFNw19E++SbsmzSBtuFtKms0zoNn3TLMZ3apLizw3DYc8l2VJ2+FEv4nKqNEQe3TbEmvf85Ra7/VBzyLPYITjRYErHbfargGivtKL6vJ0p/0cHWgzMmbKI2+xWE3OSpYrkbTmOAXFZbR0gex2xN9b3a9dS1/yTq+q7F00i0Vf3DJaa1GPu430kuM6bJA619sTEnE1EmLqCIm8lal/GeN9W8wuYp1jlXXmgO4YNxJJVHrHPH/Ocd7tDS22l0FeYZpk0T6+yzZNeRurv+iyhWq1fRb/4aryAB6UcbhobAmf1qACsx2W8WCevcrwvEpIqFVdqVNnnmuI39SeyQklJCBjv/19FqBzo7sKjGgfqL3e55AVJUx7rddsNT5Pe69D7utvWH/kVeYZb74RSEqpKuo9xu2ucD0SqqQkMdJ8483rk8ASybucwgjVOOaU2iJtMjIPSQf0VNBJrag2EicLTHlJ5LRhnHq0aMPEgsvKVGvwse0ik9CmGfXGxQiDJD8i4zKT8XcHsCjnkEStCT5no5lO+AVq3YoDGjHZZTJ9tpVlyI0OCL4N1knpdH2WdYTn/UsQnLYe3OCMlCfBdwT7z+eyYIK3BBvVosFuwStZNX2lM4J2e6yNvV8T7NKAOi8J3sw5VJUtq3Vr9UWwVlLwuHG91u96yjfjY/MYTwiS1oAvOabbQ+dDzdXeF7xsFCptEATP+Uze9qjCHM8Igt8ahhqbBDtcdX7krJGUsVIFJnpRRrDfKgvMMMUUMyywygFB2ovGo9L9Mro8cr7UTPOO4KBFoNqTmgRBxrve9rZ3BUHQ5Im4D9yqWbDZpedPzk1aBI1ujp9v8YKdkjFpkPS+jb37u5vtELS46UJQwzKtgiYrDIs1DVZ6zHrrPWala2LtMCs0CY6WcMtThnxNi+CMp80v6rPAz3QJmt1zIanhdtsFwT4/stiMrN6YMNNij/tIEPzVbaVClnP3OstyS0zSc/Gzx2GnREYab6a5qnDIy571wYWO+6ws9FONvaWW/Wn0EwuHivasVLjG3bZL69SoUae07e52zX/v0Pm0lA/NMceHUp4eHEjl4IapQIdGPQeCisGBDJa8Z28/TM+OoLy/DHrlf3o5MNjIu5GR1HPs6x4cyGDI611tpkidFagTmWmBD3wy1DM12jq7HNQpSDnmmJSg00G7PJW3w7vAMtVmXQVbTBB0+UMJN/dZUl6dvuIOkZf8xr6cQ1RkuuWWCjZZMjRxL3ZE8IiagtYajwoOu6N0wHIKbqExOlRZWnBUSpVOYy306lCQTxSptqroqTVyUXxmGQLyLW4wst8RGadtLR3wP5LRKbKHdEouAAAAAElFTkSuQmCC" />
+                                </svg>
+                            </div>
+                            <p class="card-text cat_first"><strong>подавители записи диктофонов и микрофонов</strong></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <div class="card-body  ">
+                            <div class="d-flex justify-content-center">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="64px" height="46px">
+                                    <image  x="0px" y="0px" width="64px" height="46px"  xlink:href="data:img/png;base64,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" />
+                                </svg>
+                            </div>
+                            <p class="card-text cat_first"><strong>блокираторы связи и каналов передачи данных</strong></p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="card-deck">
+                <div class="card  ">
+                    <a href="">
+                        <div class="card-body  ">
+                            <div class="d-flex justify-content-center">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="64px" height="48px">
+                                    <image  x="0px" y="0px" width="64px" height="48px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAwCAQAAAALQrSUAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjCBwOGCW1OgF+AAACdUlEQVRYw9WYP2gTURzHP/cnaYoUW6oEQys6OLmoi8VYqI6iOHSLoji4iDiIozqIbnXSURCl6FC6CC6dohCdBAXBQQexVi01/kUSe5c7h6OS3r27vPfSu5DvcNz7+/u8f7/fu7PQk0WZMq8j+SUOM8ySZq8K2skiLY5E8i/hsMAO+Y5MTYDtjGFyNtLbQWz2MZk+QKBmKG3QABo46QP4bU+Z/JRmYAMkA3CiY41jFDVbSgD4zFKjkFDjOo/4wh7WT32BGrOdF0NuCcYxEkp3AzAaAjAYl+laDqCJl1DaAIjsfC9yRroASFF9BnCZOaa07FxjgQlRga3QySFOsYsVqsrmN3OeEd7wlno3M1BiCNiqsWxFRoAxNkWLVDpr4QKuiqP9r7+AI2qpAqDs50MthYoDKCb6vg2UGGCCGc71DmAbFzjJTYZ6BZAnB6zK+fI0ADxagK9yr9GXDUzjYvKDqtYO15HBFMN42MzbbUbvcZFvGZjfwgyn1xI9D0Y2BtO4WNR5mtESfOUMdxmlFSwBzGc+bJ8na6+iJTCxAINcFiwigFUcIM9iFgCi+8BnbuHwit+9AoDnvMvGfPyNaCUb82p+wGh7qimhjQqAiU3gOdQ1AORELVUAPvELWE78SBFrme/AR/5Ei1RuxVXus5c5jfH/5Db7eRC9E6sBwA0N44GuxhX0PBj1CcBgYr1BgEjkMOXu1XIA7xMDdfC3sM768+7LxZLOAAYVJhO/9a9wlCIvQwBNylQ6+wyZU/CwY43H2i37ZRNGFRcXlONFdzOQD6V9BoACVvoAH1jC5U4o1+MZLi+odTUsKVkcoCLIL3Fc/CsmTv8AZxN/j9zuQesAAAAASUVORK5CYII=" />
+                                </svg>
+                            </div>
+                            <p class="card-text cat_first"><strong>виброакустическая защита</strong></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <div class="card-body  ">
+                            <div class="d-flex justify-content-center">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="64px" height="64px">
+                                    <image  x="0px" y="0px" width="64px" height="64px"  xlink:href="data:img/png;base64,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" />
+                                </svg>
+                            </div>
+                            <p class="card-text cat_first"><strong>защита сетей электропитания</strong></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <div class="card-body  ">
+                            <div class="d-flex justify-content-center">
+                                <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="60px" height="60px">
+                                    <image  x="0px" y="0px" width="60px" height="60px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAQAAACQ9RH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjCBwOGjDq0YcXAAADDUlEQVRYw+2Yv08UQRTHP2f0khNsAY9cQWLQ1gpCsLEx0VhJIUb/BjuxsFAM4UyU0BNCQmNQicHGhGAQDq2M0RBLy7M5EO4wkku8fRa3t9zuzu7s3O4pIbwp7t78eN95P2bnvYFo9AGJ2QpugamIwBJxXhi5sE62utCQfBs/kYAmLZEp8BqCsNr0X9dWkwH+5yQxw8u3/tjHh46Ono+zTLDJPr/5ymO67d4rLLPt7DbOl7qxfpvn9B3A36LsmlZmBHiAFftqULWfXGzAWljMMUiGDIPMYVFjCosq98gmauEcywjfOQ29VKgx6hoepYYgjLXBuRm+IdyFSYQZIM0Tfji35gyCKLU1u5kLCgk3ET7CJsIAkEcQ1u3BASck0kyzQ5kp0i2FmF9GD8Ie7CN0AEWEIWdXnc6iaUfEUwc4KoXKaA521aIthCEuI2y1DKyQcZCBvA9YXAUyWIBlGEYaGUEaNPrzCZg6H2bqoEVp8hQp8YxTTr95cPllaIG9VDCCXQ+SnUJQ549B/UmQ/MfbKTyvTiKND6BDqvFR9PExsJ/092/BM6+g4QDQf0CiHCnvvFQoBxK1Pg6LboXQCNxhPcemJJG5BDXecP4VNByQZHAZWkav8YZ2RpuOk4EWTRbQHqdkozrl2moYZwh8gUW2qPCa8/F3+Quh09d7RpFz9dsla73iy3lG3QleGGfnc1/sEsZNgwrgVwhv6KKHJYQXntGDJHBdw9nA4wizPuBZBXAZsUv2LEI5hpUFgW52qXHbNXDHLlPdVEHoASCHUPKMmhwnW/YIf7CYZ5gOOhhmHqsJeI01W/QiwhJnyfFWYWpjH9ehd1yDO9zwT6KvKbhK9KvM5/yGca5ioZtHfEIQPvOQrqbBIsKwA/2SEtsscE7tN3NgfB3egivghS6eqVXAe9SfIuoFlx44+nHqRdgNBl6lPY8vcB9hJRj4OkKVsYSfm7KMUUW4GgwME4F5Zdw27t1Pw68NusY7KolCVljxahvVr/4vWgKk9+slhGLywNH8OtkOYJ1fi+TtF76Y9BfsRXzZBd3QEAAAAABJRU5ErkJggg==" />
+                                </svg>
+                            </div>
+                            <p class="card-text cat_first"><strong>защита проводных и телефонных линий</strong></p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="">
+                    <div class="card-body  ">
+                        <div class="d-flex justify-content-center">
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="62px" height="62px">
+                                <image  x="0px" y="0px" width="62px" height="62px"  xlink:href="data:img/png;base64,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" />
+                            </svg>
+                        </div>
+                        <p class="card-text cat_first"><strong>устройства стирания <br> информации</strong></p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer_top">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-content-center">
+                <div class="col-sm-2 col-md-2 col-xl-2 p-2 headerLogo "><img src="img/footer_logo.png" alt=""></div>
+                <div class="col-sm-10 col-md-10 col-xl-6 p-2 headerMenu">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">О компании</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">каталог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">контакты</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-6  col-xl-2 p-2 headerContacts">
+                    <span class="tel footer-tel">+7 (495) 776-33-96</span><br>
+                    <span class="mail "><a class="footer-mail" href="">mail@secrety.org</a></span>
+                </div>
+                <div class="col-sm-4 col-md-6 d-flex justify-content-center col-xl-2 p-2 footer-addr">
+                    <span>г. Москва, ул. Усиевича, д.9</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bot">
+        <div class="container">
+            <div class="row">
+                <p class="col-md-6">2019 - Секрет. Все права защищены</p>
+                <p class="col-md-6 d-flex justify-content-end f_right">Создание сайта – «АБВ-сайт»</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery/2.2.2.js"></script>
+<script src="js/func.js"></script>
+<script src="js/resize-slider-min.js"></script>
+<script type="text/javascript" src="js/cofg-resize-slider.js"></script>
+</body>
+</body>
+</html>
