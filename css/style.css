@@ -385,6 +385,23 @@ color: white;
 
 
                                                     /*Catalogue Main End*/
+                                                    /*Catalogue 2 Main Start*/
+.cat_2{
+    padding-top: 89px;
+
+}
+.cat_2_text{
+    font-size: 14px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    line-height: 1.786;
+    text-align: left;
+}
+                                                    
+
+
+                                                    /*Catalogue 2 Main End*/
+
                                                     /*Media start*/
 @media (max-width: 1199px) {
         .headerMenu{
